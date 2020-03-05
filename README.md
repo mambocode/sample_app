@@ -1,3 +1,6 @@
+herokuにデプロイしたものは下記から見れます。
+https://boiling-castle-56929.herokuapp.com/
+
 # Ruby on Rails チュートリアルのサンプルアプリケーション
 
 これは、次の教材で作られたサンプルアプリケーションです。   

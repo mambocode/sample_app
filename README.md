@@ -1,5 +1,5 @@
-herokuにデプロイしたものは下記から見れます。
-https://boiling-castle-56929.herokuapp.com/
+# herokuにデプロイしたものは下記から見れます。
+[SAMPLE APP](https://boiling-castle-56929.herokuapp.com/)
 
 # Ruby on Rails チュートリアルのサンプルアプリケーション
 

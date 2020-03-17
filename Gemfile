@@ -34,6 +34,7 @@ gem 'bootstrap-sass', '3.3.7'
 # gem 'capistrano-rails', group: :development
 gem 'bcrypt',         '3.1.12'
 #'bcrypt' ハッシュ関数のためのgem
+gem 'jquery-rails'
 
 group :development, :test do
   gem 'sqlite3'

@@ -7,6 +7,12 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
     @other_user = users(:archer)
   end
   
+  # 未ログイン状態でユーサーインデックスに接続しても弾かれるか確認
+  test "should redirect index when not logged in" do 
+    get users_path
+    assert_redirected_to login_url
+  end
+  
   test "should get new" do
     get signup_path
     assert_response :success
